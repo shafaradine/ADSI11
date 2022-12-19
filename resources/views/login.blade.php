@@ -91,10 +91,10 @@
         </div>
         <main>
             <div class="relative mt-5 px-6 lg:px-8">
-                <div class="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+                <div class="flex min-h-full items-center justify-center pt-12 pb-16 px-4 sm:px-6 lg:px-8">
                     <div class="w-full max-w-md space-y-8">
                         <div>
-                            <img class="mx-auto h-36 w-auto" src={{ asset('/img/login.png') }}>
+                            <img class="mx-auto h-48 w-auto" src={{ asset('/img/login.png') }}>
                             <h2 class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900 font-sans">SELAMAT DATANG!</h2>
                         </div>
                         <form class="mt-8 space-y-6" action="#" method="POST">
@@ -116,11 +116,11 @@
                             <div class="flex items-center justify-between">
                                 <div class="flex items-center">
                                     <input id="remember-me" name="remember-me" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                                    <label for="remember-me" class="ml-2 block text-sm text-gray-900">Remember me</label>
+                                    <label for="remember-me" class="ml-2 block text-sm text-gray-900">Ingat Saya</label>
                                 </div>
 
                                 <div class="text-sm">
-                                    <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Forgot your password?</a>
+                                    <a href="#" style="color:#81B29A" class="font-medium hover:text-base-300">Lupa Kata Sandi?</a>
                                 </div>
                             </div>
 
@@ -135,21 +135,22 @@
                                     Masuk
                                 </button>
                             </div>
-                            <div class="flex text-sm justify-center mx-auto">
+                            <div class="flex text-sm justify-center mx-auto space-x-2">
                                 <p>Belum memiliki akun?</p>
-                                <p href="" style="color:#81B29A"><b>Daftar Sekarang</b></p>
+                                <a href="#" style="color:#81B29A">
+                                <p><b>Daftar Sekarang</b></p></a>
                             </div>
                         </form>
                     </div>
                 </div>
                 <p class="text-center mx-auto text-xs">Dengan masuk atau mendaftar, saya menyutujui <br>
-                    <b>Syarat dan Ketentuan</b> serta <b>Kebijakan Privasi</b></p>
+                    <b style="color:#81B29A">Syarat dan Ketentuan</b> serta <b style="color:#81B29A">Kebijakan Privasi</b></p>
             </div>
         </main>
     </div>
 
     <!-- footer -->
-    <footer class="footer footer-center mt-20 p-10 bg-base-200 text-base-content rounded">
+    <footer class="footer footer-center mt-10 p-10 bg-base-200 text-base-content rounded">
         <div class="grid grid-flow-col gap-4">
             <a class="link link-hover">About us</a>
             <a class="link link-hover">Contact</a>
