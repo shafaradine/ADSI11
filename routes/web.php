@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/ambisyuk', function () {
     return view('dashboard');
 });
+
+Route::get('/ambisyuk/login', function () {
+    return view('login');
+});
