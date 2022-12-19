@@ -21,6 +21,10 @@ Route::get('/ambisyuk', function () {
     return view('dashboard');
 });
 
-Route::get('/ambisyuk/login', function () {
+Route::get('/ambisyuk/masuk', function () {
     return view('login');
+});
+
+Route::get('/ambisyuk/daftar', function () {
+    return view('register');
 });

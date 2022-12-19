@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.45.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>AmbisYuk || Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <title>AmbisYuk || Daftar</title>
 </head>
 
 <body>
@@ -49,7 +52,7 @@
                         <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">About Us</a>
                     </div>
                     <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-                        <a href="#" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">Masuk</a>
+                        <a href="#" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">Daftar</a>
                     </div>
                 </nav>
                 <!-- Mobile menu, show/hide based on menu open state. -->
@@ -81,7 +84,7 @@
                                     <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">About Us</a>
                                 </div>
                                 <div class="py-6">
-                                    <a href="#" class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">Masuk</a>
+                                    <a href="#" class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">Daftar</a>
                                 </div>
                             </div>
                         </div>
@@ -94,51 +97,101 @@
                 <div class="flex min-h-full items-center justify-center pt-12 pb-16 px-4 sm:px-6 lg:px-8">
                     <div class="w-full max-w-md space-y-8">
                         <div>
-                            <img class="mx-auto h-48 w-auto" src={{ asset('/img/login.png') }}>
-                            <h2 class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900 font-sans">SELAMAT DATANG!</h2>
+                            <img class="mx-auto h-48 w-auto" src={{ asset('/img/register.png') }}>
+                            <h2 class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900 font-sans">AYO BUAT AKUN KAMU!</h2>
                         </div>
                         <form class="mt-8 space-y-6" action="#" method="POST">
                             <input type="hidden" name="remember" value="true">
                             <div class="-space-y-px rounded-md shadow-sm">
                                 <div class="mb-2">
                                     <label class="label">
+                                        <span class="label-text">Nama</span>
+                                    </label>
+                                    <input id="nama" name="name" type="text" autocomplete="nama" required class="relative block w-full appearance-none rounded-lg border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="nama panjang">
+                                </div>
+                                <div class="mb-2">
+                                    <label class="label">
+                                        <span class="label-text">No Handphone</span>
+                                    </label>
+                                    <input id="number" name="phone" type="tel" autocomplete="number" required class="relative block w-full appearance-none rounded-lg border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="nomor handphone aktif">
+                                </div>
+                                <div class="mb-2">
+                                    <label class="label">
+                                        <span class="label-text">Tanggal Lahir</span>
+                                    </label>
+                                    <input id="birthday" name="birth" type="date" autocomplete="birthday" required class="relative block w-full appearance-none rounded-lg border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="DD-MM-YYYY">
+                                </div>
+                                <div class="mb-2">
+                                    <label class="label">
+                                        <span class="label-text">Jenis Kelamin</span>
+                                    </label>
+                                    <div class="flex space-x-24">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" id="inlineCheckbox1" value="option1">
+                                            <label class="form-check-label inline-block text-gray-800" for="inlineCheckbox1">Laki-Laki</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" id="inlineCheckbox2" value="option2">
+                                            <label class="form-check-label inline-block text-gray-800" for="inlineCheckbox2">Perempuan</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-2">
+                                    <label class="label">
                                         <span class="label-text">Email</span>
                                     </label>
-                                    <input id="email-address" name="email" type="email" autocomplete="email" required class="relative block w-full appearance-none rounded-lg border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="example@gmail.com">
+                                    <div class="flex space-x-4">
+                                        <input id="email-address" name="email" type="email" autocomplete="email" required class="relative block w-full appearance-none rounded-lg border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="example@gmail.com">
+                                        <label style="background-color:#1D3557" for="my-modal-6" class="flex w-48 justify-center rounded-md border border-transparent py-2 px-4 text-sm font-medium text-white hover:bg-base-300 focus:outline-none focus:ring-2 focus:ring-base-200 focus:ring-offset-2">Verifikasi Akun</label>
+                                    </div>
                                 </div>
-                                <div>
+                                <div class="mb-2">
                                     <label class="label">
                                         <span class="label-text">Kata Sandi</span>
                                     </label>
-                                    <input id="password" name="password" type="password" autocomplete="current-password" required class="relative block w-full appearance-none rounded-lg border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="masukkan kata sandi akun anda">
+                                    <input id="password" name="password" type="password" autocomplete="current-password" required class="relative block w-full appearance-none rounded-lg border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="kata sandi baru">
+                                </div>
+                                <div>
+                                    <label class="label">
+                                        <span class="label-text">Konfirmasi Kata Sandi</span>
+                                    </label>
+                                    <input id="password" name="password" type="password" autocomplete="current-password" required class="relative block w-full appearance-none rounded-lg border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="masukkan ulang kata sandi">
                                 </div>
                             </div>
-                            <div class="flex items-center justify-between">
-                                <div class="flex items-center">
-                                    <input id="remember-me" name="remember-me" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                                    <label for="remember-me" class="ml-2 block text-sm text-gray-900">Ingat Saya</label>
-                                </div>
-
-                                <div class="text-sm">
-                                    <a href="#" style="color:#81B29A" class="font-medium hover:text-base-300">Lupa Kata Sandi?</a>
-                                </div>
-                            </div>
-
                             <div>
-                                <button type="submit" style="background-color:#1D3557" class="group relative flex w-full justify-center rounded-md border border-transparent py-2 px-4 text-sm font-medium text-white hover:bg-base-300 focus:outline-none focus:ring-2 focus:ring-base-200 focus:ring-offset-2">
-                                    <span class="absolute inset-y-0 left-0 flex items-center pl-3">
-                                        <!-- Heroicon name: mini/lock-closed -->
-                                        <svg class="h-5 w-5 text-base-300 group-hover:text-indigo-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                            <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd" />
-                                        </svg>
-                                    </span>
-                                    Masuk
+                                <button type="submit" style="background-color:#1D3557" class="flex w-full justify-center rounded-md border border-transparent py-2 px-4 text-sm font-medium text-white hover:bg-base-300 focus:outline-none focus:ring-2 focus:ring-base-200 focus:ring-offset-2">
+                                    Daftar
                                 </button>
                             </div>
+                            <input type="checkbox" id="my-modal-6" class="modal-toggle" />
+                            <div class="modal modal-bottom sm:modal-middle">
+                                <div class="modal-box">
+                                    <h3 class="font-bold text-lg">Verifikasi akun kamu!</h3>
+                                    <p class="pt-4 pb-8">Masukkan kode yang kami kirim
+                                        ke akun <b>example@gmail.com</b></p>
+                                    <div class="flex space-x-2 justify-center px-10">
+                                        <input type="text" class="input input-bordered w-1/6" />
+                                        <input type="text" class="input input-bordered w-1/6" />
+                                        <input type="text" class="input input-bordered w-1/6" />
+                                        <input type="text" class="input input-bordered w-1/6" />
+                                    </div>
+                                    <div class="pb-6 pt-6">
+                                        <p>Tidak dapat kode?</p>
+                                        <a href="#">
+                                            <p style="color:#81B29A"><b>Kirim ulang kode</b></p>
+                                        </a>
+                                    </div>
+                                    <div class="space-x-4 flex justify-end">
+                                        <label for="my-modal-6" class="btn">Batalkan</label>
+                                        <label for="my-modal-6" class="btn">Verifikasi</label>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="flex text-sm justify-center mx-auto space-x-2">
-                                <p>Belum memiliki akun?</p>
+                                <p>Sudah memiliki akun?</p>
                                 <a href="#" style="color:#81B29A">
-                                    <p><b>Daftar Sekarang</b></p>
+                                    <p><b>Masuk</b></p>
                                 </a>
                             </div>
                         </form>
@@ -176,6 +229,7 @@
             <p>Copyright © 2022 - All right reserved by AmbisYuk Co.</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 </body>
 
 </html>
