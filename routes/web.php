@@ -36,3 +36,27 @@ Route::get('/ambisyuk/home/{id}', function () {
 Route::get('/ambisyuk/profile/{id}', function () {
     return view('profil');
 });
+
+Route::get('/ambisyuk/beasiswa', function () {
+    return view('beasiswa/beasiswafull');
+});
+
+Route::get('/ambisyuk/beasiswa/{id}', function () {
+    return view('beasiswa/detail');
+});
+
+Route::get('/ambisyuk/magang', function () {
+    return view('magang/magangfull');
+});
+
+Route::get('/ambisyuk/magang/{id}', function () {
+    return view('magang/beasiswafull');
+});
+
+Route::get('/ambisyuk/artikel', function () {
+    return view('artikel/artikelfull');
+});
+
+Route::get('/ambisyuk/artikel/{id}', function () {
+    return view('artikel/artikeldetail');
+});
