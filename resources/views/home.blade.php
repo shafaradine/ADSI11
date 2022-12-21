@@ -118,120 +118,122 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
                 <path fill="#81B29A" fill-opacity="1" d="M0,96L48,101.3C96,107,192,117,288,101.3C384,85,480,43,576,37.3C672,32,768,64,864,90.7C960,117,1056,139,1152,138.7C1248,139,1344,117,1392,106.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
             </svg>
-            <div class="section-beasiswa mx-10 mb-10">
-                <p style="color:#1D3557" class="text-xl font-sans mb-10"><b>BEASISWA TERBARU</b></p>
-                <div class="grid grid-cols-2 gap-4">
-                    <div class="card card-side bg-base-100 shadow-xl border">
-                        <figure><img class="lg:m-4 rounded-lg lg:h-72 shadow-lg" src={{ asset('/img/b1.jpg') }} alt="Movie" /></figure>
-                        <div class="m-5 lg:w-64 sm:w-full">
-                            <div class="flex space-x-4 mb-5">
-                                <div style="background-color:#1D3557" class="badge badge-lg">Beasiswa</div>
-                                <div class="badge badge-lg badge-outline">S1</div>
-                                <div class="badge badge-lg badge-outline">2+</div>
+        </main>
+        <div class="section-beasiswa mx-10 mb-10">
+            <p style="color:#1D3557" class="text-xl font-sans mb-10"><b>BEASISWA TERBARU</b></p>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="card card-side bg-base-100 shadow-xl border">
+                    <figure><img class="lg:m-4 rounded-lg lg:h-72 shadow-lg" src={{ asset('/img/b1.jpg') }} alt="Movie" /></figure>
+                    <div class="m-5 lg:w-64 sm:w-full">
+                        <div class="flex space-x-4 mb-5">
+                            <div style="background-color:#1D3557" class="badge badge-lg">Beasiswa</div>
+                            <div class="badge badge-lg badge-outline">S1</div>
+                            <div class="badge badge-lg badge-outline">2+</div>
+                        </div>
+                        <p class="lg:text-2xl font-bold h-48">Program Beasiswa PUSBINDIKLATREN BAPPENAS</p>
+                        <div class="grid grid-cols-3 justify-start-end">
+                            <p>Dibuka</p>
+                            <div class="col-span-2">
+                                <p><b>2 September 2022</b></p>
                             </div>
-                            <p class="lg:text-2xl font-bold h-48">Program Beasiswa PUSBINDIKLATREN BAPPENAS</p>
-                            <div class="grid grid-cols-3 justify-start-end">
-                                <p>Dibuka</p>
-                                <div class="col-span-2">
-                                    <p><b>2 September 2022</b></p>
-                                </div>
-                                <p>Ditutup</p>
-                                <div class="col-span-2">
-                                    <p><b>24 Desember 2022</b></p>
-                                </div>
+                            <p>Ditutup</p>
+                            <div class="col-span-2">
+                                <p><b>24 Desember 2022</b></p>
                             </div>
                         </div>
                     </div>
-                    <div class="card card-side bg-base-100 shadow-xl border">
-                        <figure><img class="lg:m-4 rounded-lg lg:h-72 shadow-lg" src={{ asset('/img/b2.png') }} alt="Movie" /></figure>
-                        <div class="m-5 lg:w-64 sm:w-full">
-                            <div class="flex space-x-4 mb-5">
-                                <div style="background-color:#1D3557" class="badge badge-lg">Beasiswa</div>
-                                <div class="badge badge-lg badge-outline">S1</div>
-                                <div class="badge badge-lg badge-outline">2+</div>
+                </div>
+                <div class="card card-side bg-base-100 shadow-xl border">
+                    <figure><img class="lg:m-4 rounded-lg lg:h-72 shadow-lg" src={{ asset('/img/b2.png') }} alt="Movie" /></figure>
+                    <div class="m-5 lg:w-64 sm:w-full">
+                        <div class="flex space-x-4 mb-5">
+                            <div style="background-color:#1D3557" class="badge badge-lg">Beasiswa</div>
+                            <div class="badge badge-lg badge-outline">S1</div>
+                            <div class="badge badge-lg badge-outline">2+</div>
+                        </div>
+                        <p class="lg:text-2xl font-bold h-48">Beasiswa Pandawa</p>
+                        <div class="grid grid-cols-3 justify-start-end">
+                            <p>Dibuka</p>
+                            <div class="col-span-2">
+                                <p><b>2 September 2022</b></p>
                             </div>
-                            <p class="lg:text-2xl font-bold h-48">Beasiswa Pandawa</p>
-                            <div class="grid grid-cols-3 justify-start-end">
-                                <p>Dibuka</p>
-                                <div class="col-span-2">
-                                    <p><b>2 September 2022</b></p>
-                                </div>
-                                <p>Ditutup</p>
-                                <div class="col-span-2">
-                                    <p><b>24 Desember 2022</b></p>
-                                </div>
+                            <p>Ditutup</p>
+                            <div class="col-span-2">
+                                <p><b>24 Desember 2022</b></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="section-magang mx-10 mb-10">
-                <p style="color:#1D3557" class="text-xl font-sans mb-10"><b>MAGANG TERBARU</b></p>
-                <div class="grid grid-cols-2 gap-4">
-                    <div class="card card-side bg-base-100 shadow-xl border">
-                        <figure><img class="lg:m-4 rounded-lg lg:h-72 shadow-lg" src={{ asset('/img/b1.jpg') }} alt="Movie" /></figure>
-                        <div class="m-5 lg:w-64 sm:w-full">
-                            <div style="background-color:#1D3557" class="badge badge-lg mb-5">Magang</div>
-                            <p class="lg:text-2xl font-bold h-48">Copy Writing Intern</p>
-                            <div class="grid grid-cols-3 justify-start-end">
-                                <p>Dibuka</p>
-                                <div class="col-span-2">
-                                    <p><b>2 September 2022</b></p>
-                                </div>
-                                <p>Ditutup</p>
-                                <div class="col-span-2">
-                                    <p><b>24 Desember 2022</b></p>
-                                </div>
+        </div>
+        <div class="section-magang mx-10 mb-10">
+            <p style="color:#1D3557" class="text-xl font-sans mb-10"><b>MAGANG TERBARU</b></p>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="card card-side bg-base-100 shadow-xl border">
+                    <figure><img class="lg:m-4 rounded-lg lg:h-72 shadow-lg" src={{ asset('/img/b1.jpg') }} alt="Movie" /></figure>
+                    <div class="m-5 lg:w-64 sm:w-full">
+                        <div style="background-color:#1D3557" class="badge badge-lg mb-5">Magang</div>
+                        <p class="lg:text-2xl font-bold h-48">Copy Writing Intern</p>
+                        <div class="grid grid-cols-3 justify-start-end">
+                            <p>Dibuka</p>
+                            <div class="col-span-2">
+                                <p><b>2 September 2022</b></p>
+                            </div>
+                            <p>Ditutup</p>
+                            <div class="col-span-2">
+                                <p><b>24 Desember 2022</b></p>
                             </div>
                         </div>
                     </div>
-                    <div class="card card-side bg-base-100 shadow-xl border">
-                        <figure><img class="lg:m-4 rounded-lg lg:h-72 shadow-lg" src={{ asset('/img/b2.png') }} alt="Movie" /></figure>
-                        <div class="m-5 lg:w-64 sm:w-full">
-                            <div style="background-color:#1D3557" class="badge badge-lg mb-5">Magang</div>
-                            <p class="lg:text-2xl font-bold h-48">Data Science Intern PT. Pelita Harapan</p>
-                            <div class="grid grid-cols-3 justify-start-end">
-                                <p>Dibuka</p>
-                                <div class="col-span-2">
-                                    <p><b>2 September 2022</b></p>
-                                </div>
-                                <p>Ditutup</p>
-                                <div class="col-span-2">
-                                    <p><b>24 Desember 2022</b></p>
-                                </div>
+                </div>
+                <div class="card card-side bg-base-100 shadow-xl border">
+                    <figure><img class="lg:m-4 rounded-lg lg:h-72 shadow-lg" src={{ asset('/img/b2.png') }} alt="Movie" /></figure>
+                    <div class="m-5 lg:w-64 sm:w-full">
+                        <div style="background-color:#1D3557" class="badge badge-lg mb-5">Magang</div>
+                        <p class="lg:text-2xl font-bold h-48">Data Science Intern PT. Pelita Harapan</p>
+                        <div class="grid grid-cols-3 justify-start-end">
+                            <p>Dibuka</p>
+                            <div class="col-span-2">
+                                <p><b>2 September 2022</b></p>
+                            </div>
+                            <p>Ditutup</p>
+                            <div class="col-span-2">
+                                <p><b>24 Desember 2022</b></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="section-artikel mx-10">
-                <p style="color:#1D3557" class="text-xl font-sans mb-10"><b>ARTIKEL TERPOPULER</b></p>
-                <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
-                    <div class="card card-side bg-base-100 shadow-xl border">
-                        <figure><img class="lg:m-4 rounded-lg shadow-lg lg:h-64" src={{ asset('/img/a1.jpg') }} alt="Movie" /></figure>
-                        <div class="m-5 lg:w-64 sm:w-full">
-                            <p class="lg:text-2xl font-bold mb-2">7 Cara Belajar Bahasa
-                                Inggris Mudah untuk Pemula</p>
-                            <p class="mb-5">Lorem Ipsum is simply dummy text of
-                                the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's</p>
-                                <a href="#" class="flex justify-end font-bold"><p>Baca Selengkapnya</p></a>
-                        </div>
+        </div>
+        <div class="section-artikel mx-10">
+            <p style="color:#1D3557" class="text-xl font-sans mb-10"><b>ARTIKEL TERPOPULER</b></p>
+            <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
+                <div class="card card-side bg-base-100 shadow-xl border">
+                    <figure><img class="lg:m-4 rounded-lg shadow-lg lg:h-64" src={{ asset('/img/a1.jpg') }} alt="Movie" /></figure>
+                    <div class="m-5 lg:w-64 sm:w-full">
+                        <p class="lg:text-2xl font-bold mb-2">7 Cara Belajar Bahasa
+                            Inggris Mudah untuk Pemula</p>
+                        <p class="mb-5">Lorem Ipsum is simply dummy text of
+                            the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's</p>
+                        <a href="#" class="flex justify-end font-bold">
+                            <p>Baca Selengkapnya</p>
+                        </a>
                     </div>
-                    <div class="card card-side bg-base-100 shadow-xl border">
-                        <figure><img class="lg:m-4 rounded-lg shadow-lg lg:h-64" src={{ asset('/img/a2.jpg') }} alt="Movie" /></figure>
-                        <div class="m-5 lg:w-64 sm:w-full">
-                            <p class="lg:text-2xl font-bold mb-2">4 Alasan Lanjut S2 dulu Dibandingkan Kerja</p>
-                            <p class="mb-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
-                            <a href="#" class="flex justify-end font-bold"><p>Baca Selengkapnya</p></a>
-                        </div>
+                </div>
+                <div class="card card-side bg-base-100 shadow-xl border">
+                    <figure><img class="lg:m-4 rounded-lg shadow-lg lg:h-64" src={{ asset('/img/a2.jpg') }} alt="Movie" /></figure>
+                    <div class="m-5 lg:w-64 sm:w-full">
+                        <p class="lg:text-2xl font-bold mb-2">4 Alasan Lanjut S2 dulu Dibandingkan Kerja</p>
+                        <p class="mb-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
+                        <a href="#" class="flex justify-end font-bold">
+                            <p>Baca Selengkapnya</p>
+                        </a>
                     </div>
                 </div>
             </div>
-
+        </div>
     </div>
-
-    </main>
     </div>
 
     <!-- footer -->
