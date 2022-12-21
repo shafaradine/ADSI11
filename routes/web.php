@@ -42,7 +42,7 @@ Route::get('/ambisyuk/beasiswa', function () {
 });
 
 Route::get('/ambisyuk/beasiswa/{id}', function () {
-    return view('beasiswa/detail');
+    return view('beasiswa/beasiswadetail');
 });
 
 Route::get('/ambisyuk/magang', function () {
@@ -50,7 +50,7 @@ Route::get('/ambisyuk/magang', function () {
 });
 
 Route::get('/ambisyuk/magang/{id}', function () {
-    return view('magang/beasiswafull');
+    return view('magang/magangdetail');
 });
 
 Route::get('/ambisyuk/artikel', function () {
