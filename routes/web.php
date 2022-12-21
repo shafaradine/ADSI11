@@ -28,3 +28,11 @@ Route::get('/ambisyuk/masuk', function () {
 Route::get('/ambisyuk/daftar', function () {
     return view('register');
 });
+
+Route::get('/ambisyuk/home/{id}', function () {
+    return view('home');
+});
+
+Route::get('/ambisyuk/profile/{id}', function () {
+    return view('profil');
+});

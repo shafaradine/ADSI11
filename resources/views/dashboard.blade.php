@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.45.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Ambis Yuk!</title>
+    <title>AmbisYuk! Aplikasi Beasiswa dan Magang</title>
 </head>
 
 <body>
