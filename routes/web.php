@@ -60,3 +60,11 @@ Route::get('/ambisyuk/artikel', function () {
 Route::get('/ambisyuk/artikel/{id}', function () {
     return view('artikel/artikeldetail');
 });
+
+Route::get('/ambisyuk/paket-layanan', function () {
+    return view('pembelian/layanan');
+});
+
+Route::get('/ambisyuk/pembayaran/{id}', function () {
+    return view('pembelian/pembayaran');
+});
