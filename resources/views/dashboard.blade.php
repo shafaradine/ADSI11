@@ -162,7 +162,7 @@
     <!--menu-->
     <div id="library" class="library px-20">
         <p class="text-3xl pb-10 text-center"><b>LIBRARY<b></p>
-        <div class="grid lg:grid-cols-4 sm:grid-cols-1 gap-4 justify-items-center pb-10 mx-auto">
+        <div class="grid lg:grid-cols-4 sm:grid-cols-1 gap-8 justify-items-center pb-10 mx-auto">
             <div class="card card-side bg-base-100 shadow-xl border h-36 w-full">
                 <figure><img class="h-full w-60" src={{ asset('/img/a.jpg') }}></figure>
                 <div class="card justify-center px-3">
