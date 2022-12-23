@@ -26,7 +26,7 @@
                 </defs>
             </svg>
         </div>
-        <div class="px-6 pt-6 lg:px-8">
+        <div class="px-6 pt-6 lg:px-10">
             <div>
                 <nav class="flex h-9 items-center justify-between" aria-label="Global">
                     <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
