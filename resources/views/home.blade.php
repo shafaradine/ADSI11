@@ -118,7 +118,7 @@
         </main>
         <div class="section-beasiswa mx-10 my-10">
             <p style="color:#1D3557" class="text-xl font-sans mb-10"><b>BEASISWA TERBARU</b></p>
-            <div class="grid grid-cols-2 gap-4">
+            <div class="grid grid-cols-2 gap-8">
                 <div class="card card-side bg-base-100 shadow-xl border">
                     <figure><img class="lg:m-4 rounded-lg lg:h-72 shadow-lg" src={{ asset('/img/b1.jpg') }} alt="Movie" /></figure>
                     <div class="m-5 lg:w-64 sm:w-full">
