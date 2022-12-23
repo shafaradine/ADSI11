@@ -154,7 +154,7 @@
                             <button class="btn w-full rounded-lg bg-primary-content text-neutral border">
                                 <p>Indomaret / i.Saku</p>
                             </button>
-                            <button class="btn w-full rounded-lg bg-info-content text-white border">
+                            <button style="background-color:#81B29A" class="btn w-full rounded-lg text-neutral border">
                                 <p>Gopay</p>
                             </button>
                             <button class="btn w-full rounded-lg bg-primary-content text-neutral border">
@@ -167,7 +167,7 @@
                             <p class="font-bold text-base">Total</p>
                             <p class="font-bold text-base flex justify-end">Rp99.999</p>
                         </div>
-                        <div class="flex justify-end mt-10">
+                        <div class="flex justify-center mt-10">
                             <button class="btn rounded-full w-48 bg-info-content mt-5">Bayar Sekarang</button>
                         </div>
                     </div>

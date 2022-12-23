@@ -27,7 +27,7 @@
                 </defs>
             </svg>
         </div>
-        <div class="px-6 py-4 lg:px-8">
+        <div class="px-6 py-4 lg:px-10">
             <div>
                 <nav class="flex h-9 items-center justify-between" aria-label="Global">
                     <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
@@ -68,14 +68,7 @@
                     </div>
                 </nav>
 
-                <div class="pl-10 py-5 flex space-x-2">
-                    <button type="button" style="background-color:#1D3557" class="text-white hover:bg-base-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
-                        </svg>
-                    </button>
-                    <div class="font-medium normal-case text-xl">Kembali</div>
-                </div>
+                <div class="font-medium normal-case text-2xl px-10 py-5">ESSAY</div>
 
                 <!-- Mobile menu, show/hide based on menu open state. -->
                 <div role="dialog" aria-modal="true">
@@ -115,34 +108,64 @@
             </div>
         </div>
         <main>
-            <div class="px-20 mb-10">
-                <img class="float-left w-1/3 rounded-md mr-8" src={{ asset('/img/b1.jpg') }}>
-                <p style="color:#1D3557" class="text-4xl font-medium mb-5">Program Beasiswa PUSBINDIKLATREN BAPPENAS</p>
-                <div class="grid grid-cols-4 gap-2 mb-5 text-lg">
-                    <div>
-                        <p class="text-lg">Tanggal Mulai</p>
+            <div class="px-20 pb-10">
+                <div class="grid grid-cols-5 gap-16">
+                    <div class="col-span-3">
+                        <p class="text-xl font-bold mb-5">APA ITU ESSAY BEASISWA?</p>
+                        <div style="border-color:#81B29A" class="card w-full bg-base-200 shadow-xl border mb-5">
+                            <div class="card-body">
+                                <p style="text-align:justify">Essay beasiswa adalah salah satu berkas dokumen yang dipenuhi oleh calon awardee dan bersifat wajib ketika melakukan seleksi administrasi. Esai berisi narasi tentang topik tertentu yang biasanya sudah disiapkan oleh panitia seleksi dan kandidat diminta untuk menjabarkan sesuai dengan tema yang ditentukan.</p>
+                            </div>
+                        </div>
+                        <div style="background-color:#81B29A" class="card w-full shadow-xl border border-base-300 text-primary-content">
+                            <div class="card-body">
+                                <p style="text-align:justify">Nah! Berutung di Layanan Premium AmbisYuk, kamu bisa mendapatkan feedback & review dari mentormu agar essaimu bisah lebih baik loh! Yuk, submit essaimu sekarang!</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-center mt-10">
+                            <button class="btn rounded-full w-48 bg-info-content mt-5">Menulis Essay Baru</button>
+                        </div>
                     </div>
-                    <div class="col-span-3">: 20 September 2022</div>
-                    <div>
-                        <p>Tanggal Berakhir</p>
+                    <div class="col-span-2">
+                        <p class="text-xl font-bold mb-5">STATUS ESSAY</p>
+                        <div style="border-color:#81B29A" class="card w-full shadow-xl border mb-5 text-neutral">
+                            <div class="p-5">
+                                <h2 class="card-title mb-3">Study Plan untuk GKS 2023</h2>
+                                <div class="flex space-x-2 mb-3">
+                                    <div style="background-color:#81B29A" class="px-2 py-1 border-none rounded-lg text-neutral text-xs font-medium">Essaimu sudah selesai direview, Nih!</div>
+                                    <a href="#">
+                                        <div style="border-color:#81B29A" class="px-2 py-1 bg-primary-content border rounded-lg font-medium text-neutral text-xs">Cek isi essay</div>
+                                    </a>
+                                </div>
+                                <p class="font-lg text-xs">Estimasi Essai Selesai di Review : 27 Desember 2022 </p>
+                            </div>
+                        </div>
+                        <div class="card w-full shadow-xl border border-error mb-5 text-neutral">
+                            <div class="p-5">
+                                <h2 class="card-title mb-3">Personal Statement untuk GKS 2023</h2>
+                                <div class="flex space-x-2 mb-3">
+                                    <div class="px-2 py-1 bg-error border-none rounded-lg text-neutral text-xs font-medium">Sedang di-review mentor! Mohon tunggu ya.</div>
+                                    <a href="#">
+                                        <div class="px-2 py-1 border-error bg-primary-content border rounded-lg font-medium text-neutral text-xs">Cek isi essay</div>
+                                    </a>
+                                </div>
+                                <p class="font-lg text-xs">Estimasi Essai Selesai di Review : 27 Desember 2022 </p>
+                            </div>
+                        </div>
+                        <div class="card w-full shadow-xl border border-base-300 mb-5 text-neutral">
+                            <div class="p-5">
+                                <h2 class="card-title mb-3">Weslyenan University Essay</h2>
+                                <div class="flex space-x-2 mb-3">
+                                    <div class="px-2 py-1 bg-base-300 border-none rounded-lg text-neutral text-xs font-medium">Tunggu sebentar yaa, essaymu akan segera dicek!</div>
+                                    <a href="#">
+                                        <div class="px-2 py-1 border-base-300 bg-primary-content border rounded-lg font-medium text-neutral text-xs">Cek isi essay</div>
+                                    </a>
+                                </div>
+                                <p class="font-lg text-xs">Estimasi Essai Selesai di Review : 10 Januari 2023 </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-span-3">: 20 Desember 2022</div>
                 </div>
-                <p class="font-bold my-3">Deskripsi</p>
-                <p style="text-align:justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </p>
-                <p class="font-bold my-3">Syarat dan Ketentuan</p>
-                <p style="text-align:justify">
-                <ol>
-                    <li>1. syarat 1</li>
-                    <li>2. syarat 2</li>
-                    <li>3. syarat 3</li>
-                    <li>4. syarat 4</li>
-                    <li>5. syarat 5</li>
-                    <li>6. syarat 6</li>
-                </ol>
-                </p>
-                </p>
             </div>
         </main>
     </div>

@@ -116,7 +116,7 @@
         </div>
         <main>
             <div class="px-20 mb-10">
-                <img class="float-left w-1/2 rounded-md mr-5" src={{ asset('/img/a1.jpg') }}>
+                <img class="float-left w-1/2 rounded-md mr-8" src={{ asset('/img/a1.jpg') }}>
                 <p style="color:#1D3557" class="text-4xl font-medium mb-5">7 Cara Belajar Bahasa Inggris Mudah untuk Pemula</p>
                 <div class="grid grid-cols-8 gap-2 mb-5 text-lg">
                     <div>

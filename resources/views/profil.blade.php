@@ -197,7 +197,7 @@
                                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-warning" />
                                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-warning" />
                                     </div>
-                                    <button class="btn px-10 flex bg-info-content text-white rounded-full mx-auto">Kirim</button>
+                                    <label for="my-modal-3" type="submit" style="background-color:#1D3557" class="btn w-36 px-10 flex text-primary-content rounded-full mx-auto">Kirim</label>
                                 </div>
                             </div>
                         </div>

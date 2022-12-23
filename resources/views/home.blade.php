@@ -102,7 +102,7 @@
         </div>
         <main>
             <div class="hero min-h-screen" style="background-image: url(https://img.freepik.com/premium-vector/fantasy-space-with-abstract-figure_29937-8661.jpg?w=996)">
-                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-overlay bg-opacity-80"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-md">
                         <div class="avatar mb-5">
@@ -115,11 +115,8 @@
                     </div>
                 </div>
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
-                <path fill="#81B29A" fill-opacity="1" d="M0,96L48,101.3C96,107,192,117,288,101.3C384,85,480,43,576,37.3C672,32,768,64,864,90.7C960,117,1056,139,1152,138.7C1248,139,1344,117,1392,106.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
-            </svg>
         </main>
-        <div class="section-beasiswa mx-10 mb-10">
+        <div class="section-beasiswa mx-10 my-10">
             <p style="color:#1D3557" class="text-xl font-sans mb-10"><b>BEASISWA TERBARU</b></p>
             <div class="grid grid-cols-2 gap-4">
                 <div class="card card-side bg-base-100 shadow-xl border">

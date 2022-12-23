@@ -61,10 +61,26 @@ Route::get('/ambisyuk/artikel/{id}', function () {
     return view('artikel/artikeldetail');
 });
 
-Route::get('/ambisyuk/paket-layanan', function () {
-    return view('pembelian/layanan');
+Route::get('/ambisyuk/premium', function () {
+    return view('premium/layanan');
 });
 
 Route::get('/ambisyuk/pembayaran/{id}', function () {
-    return view('pembelian/pembayaran');
+    return view('premium/pembayaran');
+});
+
+Route::get('/ambisyuk/essay', function () {
+    return view('essay/essay');
+});
+
+Route::get('/ambisyuk/essay-write', function () {
+    return view('essay/write');
+});
+
+Route::get('/ambisyuk/CV', function () {
+    return view('CV/CV');
+});
+
+Route::get('/ambisyuk/CV-create', function () {
+    return view('CV/create');
 });

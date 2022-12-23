@@ -27,7 +27,7 @@
                 </defs>
             </svg>
         </div>
-        <div class="px-6 py-4 lg:px-8">
+        <div class="px-6 py-4 lg:px-10">
             <div>
                 <nav class="flex h-9 items-center justify-between" aria-label="Global">
                     <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
@@ -68,14 +68,7 @@
                     </div>
                 </nav>
 
-                <div class="pl-10 py-5 flex space-x-2">
-                    <button type="button" style="background-color:#1D3557" class="text-white hover:bg-base-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
-                        </svg>
-                    </button>
-                    <div class="font-medium normal-case text-xl">Kembali</div>
-                </div>
+                <div class="font-medium normal-case text-2xl px-10 mt-5">RESUME DIRI</div>
 
                 <!-- Mobile menu, show/hide based on menu open state. -->
                 <div role="dialog" aria-modal="true">
@@ -115,38 +108,24 @@
             </div>
         </div>
         <main>
-            <div class="px-20 mb-10">
-                <img class="float-left w-1/3 rounded-md mr-8" src={{ asset('/img/b1.jpg') }}>
-                <p style="color:#1D3557" class="text-4xl font-medium mb-5">Program Beasiswa PUSBINDIKLATREN BAPPENAS</p>
-                <div class="grid grid-cols-4 gap-2 mb-5 text-lg">
-                    <div>
-                        <p class="text-lg">Tanggal Mulai</p>
-                    </div>
-                    <div class="col-span-3">: 20 September 2022</div>
-                    <div>
-                        <p>Tanggal Berakhir</p>
-                    </div>
-                    <div class="col-span-3">: 20 Desember 2022</div>
+            <div class="px-20 pt-20">
+                <div class="font-bold text-center normal-case text-4xl pb-5">RESUME KAMU MASIH KOSONG NIH</div>
+                <div class="font-medium text-center normal-case text-lg">ayo buat resume untuk mendapat
+                    pekerjaan impianmu</div>
+                <div class="flex justify-center mt-10">
+                    <button class="btn rounded-full w-48 bg-info-content mt-5 gap-2">Membuat Resume
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                        </svg>
+
+                    </button>
                 </div>
-                <p class="font-bold my-3">Deskripsi</p>
-                <p style="text-align:justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </p>
-                <p class="font-bold my-3">Syarat dan Ketentuan</p>
-                <p style="text-align:justify">
-                <ol>
-                    <li>1. syarat 1</li>
-                    <li>2. syarat 2</li>
-                    <li>3. syarat 3</li>
-                    <li>4. syarat 4</li>
-                    <li>5. syarat 5</li>
-                    <li>6. syarat 6</li>
-                </ol>
-                </p>
-                </p>
             </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#B1C9BD" fill-opacity="1" d="M0,224L34.3,229.3C68.6,235,137,245,206,218.7C274.3,192,343,128,411,128C480,128,549,192,617,197.3C685.7,203,754,149,823,154.7C891.4,160,960,224,1029,234.7C1097.1,245,1166,203,1234,170.7C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+            </svg>
         </main>
     </div>
-
     <!-- footer -->
     <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
         <div class="grid grid-flow-col gap-4">

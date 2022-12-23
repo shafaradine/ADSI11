@@ -115,34 +115,59 @@
             </div>
         </div>
         <main>
-            <div class="px-20 mb-10">
-                <img class="float-left w-1/3 rounded-md mr-8" src={{ asset('/img/b1.jpg') }}>
-                <p style="color:#1D3557" class="text-4xl font-medium mb-5">Program Beasiswa PUSBINDIKLATREN BAPPENAS</p>
-                <div class="grid grid-cols-4 gap-2 mb-5 text-lg">
-                    <div>
-                        <p class="text-lg">Tanggal Mulai</p>
+            <div class="hero min-h-screen">
+                <div class="px-20 mb-10">
+                    <p class="flex justify-center font-bold text-2xl mb-5">MENULIS ESSAY</p>
+                    <div class="group mx-auto justify-items-center">
+                        <div class="form-control w-full max-w-xs mb-3">
+                            <label class="label">
+                                <span class="label-text">Judul Essay</span>
+                            </label>
+                            <input type="text" class="input input-bordered border-neutral rounded-full h-8 w-96 max-w-xs" />
+                        </div>
+                        <div class="form-control w-full max-w-xs mb-3">
+                            <label class="label">
+                                <span class="label-text">Tujuan Essay</span>
+                            </label>
+                            <input type="text" class="input input-bordered border-neutral rounded-full h-8 w-96 max-w-xs" />
+                        </div>
+                        <div class="form-control w-full max-w-xs mb-3">
+                            <label class="label">
+                                <span class="label-text">Nama Beasiswa</span>
+                            </label>
+                            <input type="text" class="input input-bordered border-neutral rounded-full h-8 w-96 max-w-xs" />
+                        </div>
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Tulis Essaimu disini</span>
+                            </label>
+                            <textarea class="textarea textarea-bordered w-80 border-neutral"></textarea>
+                            <label class="label">
+                                <span class="label-text">Atau</span>
+                            </label>
+                        </div>
+                        <div class="form-control w-full max-w-xs">
+                            <label class="label">
+                                <span class="label-text">Unggah File Essay</span>
+                            </label>
+                            <input type="file" class="file-input file-input-bordered w-full max-w-xs" />
+                        </div>
+                        <div class="flex justify-center mt-10">
+                            <label for="my-modal-4" class="btn rounded-full w-48 bg-info-content mt-5">Submit Essay</label>
+                        </div>
+                        <input type="checkbox" id="my-modal-4" class="modal-toggle" />
+                        <label for="my-modal-4" class="modal cursor-pointer">
+                            <label class="modal-box relative" for="">
+                                <h3 class="text-2xl font-bold text-center">Essaimu Berhasil di Unggah!</h3>
+                                <p class="py-4 text-center">Cek status essaimu di Halaman Essai</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-48 h-48 flex mx-auto justify-center">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                                </svg>
+
+                            </label>
+                        </label>
                     </div>
-                    <div class="col-span-3">: 20 September 2022</div>
-                    <div>
-                        <p>Tanggal Berakhir</p>
-                    </div>
-                    <div class="col-span-3">: 20 Desember 2022</div>
                 </div>
-                <p class="font-bold my-3">Deskripsi</p>
-                <p style="text-align:justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </p>
-                <p class="font-bold my-3">Syarat dan Ketentuan</p>
-                <p style="text-align:justify">
-                <ol>
-                    <li>1. syarat 1</li>
-                    <li>2. syarat 2</li>
-                    <li>3. syarat 3</li>
-                    <li>4. syarat 4</li>
-                    <li>5. syarat 5</li>
-                    <li>6. syarat 6</li>
-                </ol>
-                </p>
-                </p>
             </div>
         </main>
     </div>

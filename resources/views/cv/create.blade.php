@@ -115,34 +115,135 @@
             </div>
         </div>
         <main>
-            <div class="px-20 mb-10">
-                <img class="float-left w-1/3 rounded-md mr-8" src={{ asset('/img/b1.jpg') }}>
-                <p style="color:#1D3557" class="text-4xl font-medium mb-5">Program Beasiswa PUSBINDIKLATREN BAPPENAS</p>
-                <div class="grid grid-cols-4 gap-2 mb-5 text-lg">
-                    <div>
-                        <p class="text-lg">Tanggal Mulai</p>
+            <div class="px-20 mb-10 grid grid-cols-2 gap-8">
+                <div>
+                    <p class="text-2xl font-bold mb-3">Data Pribadi</p>
+                    <p>Informasi ini akan ditampilkan pada header
+                        resume. <br> Pastikan anda mengisi dengan benar.</p>
+                    <div class="bg-primary-content px-6 py-8 rounded-2xl shadow-lg text-neutral w-full mt-5 border">
+                        <p class="mb-2">Nama Lengkap</p>
+                        <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="fullname" />
+                        <p class="mb-2">Asal Kota</p>
+                        <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="asalkota" />
+                        <p class="mb-2">Kewarganegaraan</p>
+                        <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="kewarganegaraan" />
+                        <p class="mb-2">Nomor Telepon</p>
+                        <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="telp" />
+                        <p class="mb-2">Email</p>
+                        <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="email" />
                     </div>
-                    <div class="col-span-3">: 20 September 2022</div>
-                    <div>
-                        <p>Tanggal Berakhir</p>
+
+                    <p class="text-2xl font-bold mb-3 mt-10">Pengalaman Kerja</p>
+                    <p>Mulai dengan pengalaman kerja terakhirmu</p>
+                    <div class="bg-primary-content px-6 py-8 rounded-2xl shadow-lg text-neutral w-full mt-5 border">
+                        <p class="mb-2">Pekerjaan</p>
+                        <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="fullname" />
+                        <p class="mb-2">Perusahaan</p>
+                        <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="asalkota" />
+                        <div class="grid grid-cols-2 gap-8">
+                            <div>
+                                <p class="mb-2">Kota</p>
+                                <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="kewarganegaraan" />
+                            </div>
+                            <div>
+                                <p class="mb-2">Negara</p>
+                                <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="telp" />
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-8">
+                            <div>
+                                <p class="mb-2">Bulan Mulai</p>
+                                <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="kewarganegaraan" />
+                            </div>
+                            <div>
+                                <p class="mb-2">Tahun Mulai</p>
+                                <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="telp" />
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-8">
+                            <div>
+                                <p class="mb-2">Bulan Berakhir</p>
+                                <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="kewarganegaraan" />
+                            </div>
+                            <div>
+                                <p class="mb-2">Tahun Berakhir</p>
+                                <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="telp" />
+                            </div>
+                        </div>
+                        <p class="my-5 font-bold">Jelaskan tanggung jawab dan pencapaianmu selama bekerja</p>
+                        <textarea type="text" class="textarea block border border-neutral w-full p-3 rounded-2xl mb-3"></textarea>
                     </div>
-                    <div class="col-span-3">: 20 Desember 2022</div>
+
+                    <div class="flex justify-center mt-2">
+                    <button class="btn rounded-full w-56 bg-info-content mt-5 gap-2">Simpan dan Lanjut
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                        </svg>
+
+                    </button>
                 </div>
-                <p class="font-bold my-3">Deskripsi</p>
-                <p style="text-align:justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </p>
-                <p class="font-bold my-3">Syarat dan Ketentuan</p>
-                <p style="text-align:justify">
-                <ol>
-                    <li>1. syarat 1</li>
-                    <li>2. syarat 2</li>
-                    <li>3. syarat 3</li>
-                    <li>4. syarat 4</li>
-                    <li>5. syarat 5</li>
-                    <li>6. syarat 6</li>
-                </ol>
-                </p>
-                </p>
+                </div>
+
+                <div>
+                    <p class="text-2xl font-bold mb-4">Pendidikan</p>
+                    <p>Tambahkan pendidikan terakhirmu.</p>
+                    <div class="bg-primary-content px-6 py-8 rounded-2xl shadow-lg text-neutral w-full mt-10 border">
+                        <p class="mb-2">Nama Institusi</p>
+                        <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="fullname" />
+                        <div class="grid grid-cols-2 gap-8">
+                            <div>
+                                <p class="mb-2">Kota</p>
+                                <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="kewarganegaraan" />
+                            </div>
+                            <div>
+                                <p class="mb-2">Negara</p>
+                                <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="telp" />
+                            </div>
+                        </div>
+                        <p class="mb-2">Degree</p>
+                        <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="asalkota" />
+                        <p class="mb-2">Jurusan</p>
+                        <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="kewarganegaraan" />
+                        <div class="grid grid-cols-2 gap-8">
+                            <div>
+                                <p class="mb-2">Bulan Lulus</p>
+                                <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="kewarganegaraan" />
+                            </div>
+                            <div>
+                                <p class="mb-2">Tahun Lulus</p>
+                                <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="telp" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-2xl font-bold mb-3 mt-10">Keahlian</p>
+                    <p>Tambahkan kemampuanmu untuk meyakinkan
+                        recruiter</p>
+                    <div class="bg-primary-content px-6 py-8 rounded-2xl shadow-lg text-neutral w-full mt-5 border">
+                        <p class="mb-2">Bidang Keahlian #1</p>
+                        <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="fullname" />
+                        <p class="mb-2">Bidang Keahlian #2</p>
+                        <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="asalkota" />
+                        <p class="mb-2">Bidang Keahlian #3</p>
+                        <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="fullname" />
+                        <p class="mb-2">Bidang Keahlian #4</p>
+                        <input type="text" class="block border border-neutral w-full p-3 rounded-2xl mb-3" name="asalkota" />
+                        <button class="gap-2 flex mt-5 text-success">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                            </svg>
+                            Tambahkan Keahlian
+                        </button>
+                    </div>
+
+                    <p class="text-2xl font-bold mb-3 mt-10">Tentang Diri</p>
+                    <p>Ceritakan secara singkat dan jelas tentang
+                        diri anda</p>
+                    <div class="bg-primary-content px-6 py-8 rounded-2xl shadow-lg text-neutral w-full mt-5 border">
+                        <textarea type="text" class="textarea block border border-neutral w-full p-3 rounded-2xl mb-3"></textarea>
+                    </div>
+
+                </div>
             </div>
         </main>
     </div>
